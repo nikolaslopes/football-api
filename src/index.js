@@ -57,8 +57,4 @@ app.get("/competitions/:id/matches", (req, res) => {
 		});
 });
 
-const PORT = 8080;
-
-module.exports = app.listen(PORT, () => {
-	console.log(`🔥 Server started at http://localhost:${PORT}`);
-});
+module.exports = app;
